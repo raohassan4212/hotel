@@ -1,0 +1,236 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "montserratmedium" !important;
+}
+
+.banner-container {
+  background-image: url("./imgs/banner-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 92vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* News letter */
+.news-letter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 0;
+  box-sizing: border-box;
+  background-color: #84152f;
+  color: white;
+}
+
+.news-letter-container > div {
+  margin: 0 25px;
+}
+
+.news-letter-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-family: "montserratmedium" !important;
+  text-align: center;
+}
+
+.news-letter-inp > input {
+  border: none;
+  padding: 0.5rem !important;
+  margin-right: 0.25rem !important;
+  width: 315px;
+}
+
+.news-letter-inp > button {
+  font-size: 14px;
+  padding: 6px 15px !important;
+  border: 0;
+  border-radius: 0;
+  line-height: 2;
+  width: 134px;
+  cursor: pointer;
+  background-color: #5f5f5f;
+  color: white;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.news-letter-inp > button:hover {
+  background-color: black;
+}
+
+@media only screen and (max-width: 848px) {
+  .news-letter-container {
+    flex-wrap: wrap;
+  }
+
+  .news-letter-text {
+    margin-bottom: 5px !important;
+  }
+}
+
+@media only screen and (max-width: 506px) {
+  .news-letter-inp {
+    width: 100%;
+  }
+
+  .news-letter-inp > input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .news-letter-inp > button {
+    width: 100%;
+  }
+}
+
+/* Reason */
+.reason-box > h1 {
+  font-size: 24px;
+  color: #010101;
+  margin-top: 3rem !important;
+  text-align: center;
+  font-weight: 600;
+}
+
+.reason-box > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  box-sizing: border-box;
+}
+
+.reason-flex {
+  text-align: center;
+  margin: 0 25px;
+}
+
+.reason {
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1a4375;
+  margin: 10px 0;
+}
+
+.reason-text {
+  font-size: 14px;
+  color: #1a4375;
+}
+
+@media only screen and (max-width: 490px) {
+  .reason-box > div {
+    flex-wrap: wrap;
+  }
+
+  .reason-flex {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+/* Destination */
+.destination-box {
+  height: 130vh;
+  background-color: #e8ecf1;
+  box-sizing: border-box;
+  border: 1px solid #e8ecf1;
+}
+
+.destination-box > h1 {
+  font-size: 24px;
+  color: #010101;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 20px !important;
+}
+
+.destination-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.destination-3-img {
+  position: relative;
+  left: 100px;
+}
+
+.destination-3-img > div {
+  width: 272px !important;
+  height: 100px !important;
+  margin: 10px 0;
+  position: relative !important;
+  background-size: cover;
+}
+
+.img-1 {
+  background-image: url(./imgs/destination-1.jpg);
+}
+
+.img-2 {
+  background-image: url(./imgs/destination-2.jpg);
+}
+
+.img-3 {
+  background-image: url(./imgs/destination-3.jpg);
+}
+
+.location {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Offer */
+.offer-position {
+  position: relative;
+  bottom: 100px;
+}
+
+.offer-box {
+  width: 90vw;
+  height: 30vh;
+  background-color: #84152f;
+  position: absolute;
+  right: 0;
+}
+
+.offer {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 20px !important;
+}
+
+.offer-text {
+    font-family: 'montserratregular' !important;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.meeting-box {
+    text-align: center;
+
+}
+
+.meeting-img {
+    width: 380px;
+    height: 140px;
+}
